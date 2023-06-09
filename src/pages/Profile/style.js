@@ -20,6 +20,11 @@ export const Container = styled.div`
         font-size: 24px;
     }
 
+    button {
+        background: none;
+        border: none;
+    }
+
    }
 
 `;
@@ -71,5 +76,5 @@ export const Avatar = styled.div`
             color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
         }
     }
-    //a
+    
 `;

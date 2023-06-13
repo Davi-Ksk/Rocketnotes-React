@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import GlobalStyles from './styles/global';
+import GlobalStyles from './Styles/global';
 import { ThemeProvider } from 'styled-components';
 
 import { AuthProvider } from './hooks/auth';
